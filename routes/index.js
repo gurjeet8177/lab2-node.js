@@ -29,7 +29,7 @@ router.get('/rajinder', function(req, res, next) {
 router.get('/jaspreet', function(req, res, next) {
   res.render('jaspreet', { name: ' Jaspreet Singh',
                          title:'Jaspreet Singh',
-                      age:'10,
+                      age:'10',
                       programme:'Computer Programming Diploma',
                       autoBio:'Jaspreet is a great person, he loves  computer programming and is extremly talented in solving problems and toruble shooting. He also takes interest in sports and fun activities. '});
 });
